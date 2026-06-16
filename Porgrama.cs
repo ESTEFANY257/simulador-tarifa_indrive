@@ -8,9 +8,9 @@ public class SimuladorTarifa
         // Entrada de Datos
         // Declaración de variables
         string nombre; nombreVehiculo;
-        double distania, tarifaBase, costoKm, subtotal, descuento, tarifaFinal;
+        double distania, tarifaBase, costoKm, subtotal, tarifaFina, descuento= 0.0;
         int hora; tipoVehiculo;
-        bool esHoraPico;
+        bool esHoraPico = false;
         Console.WriteLine("Nombre del Pasajero");
         nombre = Console.ReadLine();
         
